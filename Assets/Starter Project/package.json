@@ -1,9 +1,11 @@
 {
-    "name": "com.anotherstory.starterproject",
-    "version": "1.0.0",
+    "name": "com.another-story.starter-project",
+    "version": "1.0",
     "displayName": "Starter Project",
-    "description": "This is an example package",
+    "description": "Starter Project library",
     "unity": "2021.3",
+    "dependencies": {
+    },
     "author": {
       "name": "Unity",
       "email": "unity@example.com",
