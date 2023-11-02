@@ -1,0 +1,7 @@
+{
+    "name": "com.another-story.starter-project",
+    "version": "1.0",
+    "displayName": "Starter Project",
+    "description": "Starter Project library",
+    "unity": "2021.3"
+  }
