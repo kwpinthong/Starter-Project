@@ -1,3 +1,16 @@
 {
-	"name": "StarterProject.StateManager.Runtime"
+    "name": "StarterProject.StateManager.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:da027db0161e41e499c17f79e86c6232"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

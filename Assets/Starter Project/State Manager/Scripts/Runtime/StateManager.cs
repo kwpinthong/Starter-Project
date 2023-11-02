@@ -1,7 +1,7 @@
+using StarterProject.ControllerLib;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-namespace StarterProject.StateManager
+namespace StarterProject.StateLib
 {
     public class StateManager : MonoBehaviour
     {
@@ -29,10 +29,6 @@ namespace StarterProject.StateManager
 
         public void SetFirstSelect()
         {
-            if (EventSystem.current)
-            {
-                EventSystem.current.SetSelectedGameObject(_currentState.FirstSelect);
-            }
         }
     }
 }

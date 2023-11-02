@@ -1,0 +1,19 @@
+{
+    "name": "com.AnotherStory.StarterProject",
+    "version": "1.0",
+    "displayName": "Starter Project",
+    "description": "This is an example package",
+    "unity": "2021.3.25f1",
+    "unityRelease": "25f1",
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "keywords": [
+      "starter"
+    ],
+    "author": {
+      "name": "Unity",
+      "email": "unity@example.com",
+      "url": "https://www.unity3d.com"
+    }
+  }

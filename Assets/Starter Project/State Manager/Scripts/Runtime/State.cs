@@ -2,7 +2,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace StarterProject.StateManager
+namespace StarterProject.StateLib
 {
     [ExecuteInEditMode]
     public class State : MonoBehaviour
@@ -17,13 +17,13 @@ namespace StarterProject.StateManager
         [Space]
         public UnityEvent OnExit;
 
-        public void Enter()
+        public virtual void Enter()
         {
             Debug.Log($"Enter {Name}");
             OnEnter.Invoke();
         }
 
-        public void Exit()
+        public virtual void Exit()
         {
             Debug.Log($"Exit {Name}");
             OnExit.Invoke();
