@@ -39,6 +39,28 @@ namespace StarterProject.AudioManagerLib
             _instance._SetSFXVolume(volume);
         }
 
+        public static IEnumerable GetAllKey(AudioNodeType type)
+        {
+            List<string> _keys = new List<string>();
+
+            var audioBack = (AudioBank)Resources.Load("Audio Bank");
+
+            if (audioBack == null)
+            {
+                Debug.LogWarning("Audio Bank not found, in Resources folder");
+            }
+            else
+            {
+                var sfx = audioBack.Bank.Find(x => x.Type == type);
+                foreach (var s in sfx.AudioClipDatas)
+                {
+                    _keys.Add(s.Key);
+                }
+            }
+
+            return _keys;
+        }
+
         [SerializeField] private List<AudioNode> _nodes;
         [SerializeField] private AudioBank _audioBank;
         [SerializeField] private AudioMixer _audioMixer;
