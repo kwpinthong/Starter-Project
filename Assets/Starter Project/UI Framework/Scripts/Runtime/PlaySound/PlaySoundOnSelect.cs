@@ -2,9 +2,9 @@ using UnityEngine.EventSystems;
 
 namespace StarterProject.UIFramework
 {
-    public class PlaySoundOnSubmit : PlayerSoundOnEvent, ISubmitHandler
+    public class PlaySoundOnSelect : PlayerSoundOnEvent, ISelectHandler
     {
-        public void OnSubmit(BaseEventData eventData)
+        public void OnSelect(BaseEventData eventData)
         {
             PlaySound();
         }

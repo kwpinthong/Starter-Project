@@ -2,7 +2,7 @@
   "name": "com.another-story.starter-project",
   "displayName": "Starter Project",
   "description": "Starter Project for any Unity Game Project All-In-One, only for private use",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "unity": "2021.3",
   "dependencies": {
     "com.unity.inputsystem": "1.5.1",
