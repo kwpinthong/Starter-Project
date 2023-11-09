@@ -1,8 +1,9 @@
-namespace StarterProject.AudioManager
+namespace StarterProject.AudioManagerLib
 {
     public enum AudioNodeType
     {
-        Node2D,
-        Node3D,
+        BGM,
+        TwoD,
+        ThreeD,
     }
 }

@@ -1,3 +1,16 @@
 {
-	"name": "StarterProject.AudioManager.Runtime"
+    "name": "StarterProject.AudioManager.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:12d874f659a97684590b0ca18820cc6a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

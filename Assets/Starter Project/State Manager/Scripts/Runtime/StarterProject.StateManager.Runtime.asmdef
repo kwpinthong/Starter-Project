@@ -2,7 +2,8 @@
     "name": "StarterProject.StateManager.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:da027db0161e41e499c17f79e86c6232"
+        "GUID:da027db0161e41e499c17f79e86c6232",
+        "GUID:c0c943181308039489dd09a31173f5dc"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

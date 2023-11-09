@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9135102723695178598}
   - component: {fileID: 2925647122056820340}
+  - component: {fileID: 2992263346240012512}
+  - component: {fileID: 4412192566109187345}
   m_Layer: 5
   m_Name: Button Text
   m_TagString: Untagged
@@ -82,6 +84,32 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2992263346240012512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280760168937484760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7512d49348599764db094844093b0b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioKey: Select
+--- !u!114 &4412192566109187345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280760168937484760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323bef8305ec33648a3a6e1763171310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AudioKey: Select
 --- !u!1001 &648900490848538854
 PrefabInstance:
   m_ObjectHideFlags: 0

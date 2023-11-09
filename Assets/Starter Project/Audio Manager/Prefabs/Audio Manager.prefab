@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4862735704776115896}
   - component: {fileID: 4952245899404735446}
+  - component: {fileID: 3176868602521899637}
   m_Layer: 0
   m_Name: Audio Manager
   m_TagString: Untagged
@@ -44,10 +45,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd7d157bcc0acc445bb06890d3fcff2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _2DAudioNode:
-    Node: 0
+  _nodes:
+  - Type: 0
+    AudioSource: {fileID: 1978207543072868068, guid: 0ccec605216434c469860dd68ef7c30a, type: 3}
+  - Type: 1
     AudioSource: {fileID: 1806619905080677573, guid: d16e196842985c249bb4c0638c81018e, type: 3}
-  _3DAudioNode:
-    Node: 0
-    AudioSource: {fileID: 5599041841593830504, guid: 708fd218a210a3e48afada29f67fd7ce, type: 3}
+  - Type: 2
+    AudioSource: {fileID: 1806619905080677573, guid: e7758d962f13fe04f9f87be6c1804b6a, type: 3}
+  _audioBank: {fileID: 11400000, guid: 6714d444835b1e242a602cea0fad29ed, type: 2}
+  _audioMixer: {fileID: 24100000, guid: c73ac96b987ff0c408d01698b32252b1, type: 2}
+  _MasterVolumeParam: MasterVolume
+  _BGMVolumeParam: BGMVolume
+  _SFXVolumeParam: SFXVolume
   _dontDestroyOnLoad: 1
+--- !u!81 &3176868602521899637
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4862735704776115897}
+  m_Enabled: 1

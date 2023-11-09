@@ -2,7 +2,9 @@
     "name": "StarterProject.UIFramework.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:da027db0161e41e499c17f79e86c6232"
+        "GUID:da027db0161e41e499c17f79e86c6232",
+        "GUID:a2ec5ac34964d4740bf0baaa88a4745b",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

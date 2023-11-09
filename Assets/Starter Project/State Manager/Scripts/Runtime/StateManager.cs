@@ -13,7 +13,13 @@ namespace StarterProject.StateLib
 
         private void Start()
         {
+            Controller.OnGamepadConnected += Controller_OnGamepadConnected;
             NextState(_firstState);
+        }
+
+        private void OnDestroy()
+        {
+            Controller.OnGamepadConnected -= Controller_OnGamepadConnected;
         }
 
         public void NextState(State nextState)
@@ -29,6 +35,15 @@ namespace StarterProject.StateLib
 
         public void SetFirstSelect()
         {
+            if (Controller.CurrentType == Controller.Type.Gamepad)
+            {
+                Controller.SetSelectedGameObject(_currentState.FirstSelect);
+            }
+        }
+
+        private void Controller_OnGamepadConnected()
+        {
+            Controller.SetSelectedGameObject(_currentState.FirstSelect);
         }
     }
 }

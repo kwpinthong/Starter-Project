@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3907370386925086277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115896, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862735704776115897, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: m_Name
+      value: Audio Manager Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952245899404735446, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}
+      propertyPath: _audioBank
+      value: 
+      objectReference: {fileID: 11400000, guid: 0eba04a0aacf60245809d344d41e5544, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f778fd44c74f1c441a12d2ad1a17e7ef, type: 3}

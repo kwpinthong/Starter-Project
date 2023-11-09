@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41dc767fbb7223146b1bfd4a254873a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerInput: {fileID: 1824633916906553337}
   _dontDestroyOnLoad: 1
-  _first: {fileID: 0}
 --- !u!114 &1824633916906553337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,13 +73,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2027458758465412238}
-        m_TargetAssemblyTypeName: StarterProject.Controller.Controller, StarterProject.Controller.Runtime
+        m_TargetAssemblyTypeName: StarterProject.ControllerLib.Controller, StarterProject.Controller.Runtime
         m_MethodName: UpdateFristSelect
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1824633916906553337}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.InputSystem.PlayerInput,
-            Unity.InputSystem
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
