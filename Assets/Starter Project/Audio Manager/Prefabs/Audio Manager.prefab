@@ -52,12 +52,11 @@ MonoBehaviour:
     AudioSource: {fileID: 1806619905080677573, guid: d16e196842985c249bb4c0638c81018e, type: 3}
   - Type: 2
     AudioSource: {fileID: 1806619905080677573, guid: e7758d962f13fe04f9f87be6c1804b6a, type: 3}
-  _audioBank: {fileID: 11400000, guid: 6714d444835b1e242a602cea0fad29ed, type: 2}
+  _audioBank: {fileID: 0}
   _audioMixer: {fileID: 24100000, guid: c73ac96b987ff0c408d01698b32252b1, type: 2}
   _MasterVolumeParam: MasterVolume
   _BGMVolumeParam: BGMVolume
   _SFXVolumeParam: SFXVolume
-  _dontDestroyOnLoad: 1
 --- !u!81 &3176868602521899637
 AudioListener:
   m_ObjectHideFlags: 0
