@@ -7,6 +7,7 @@ namespace StarterProject.AudioManagerLib
 {
     public class AudioManager : MonoBehaviour
     {
+        private static bool isFocused => Application.isFocused;
         private static AudioManager _instance;
 
         public static void PlayBGM(string bgm)
@@ -16,12 +17,14 @@ namespace StarterProject.AudioManagerLib
 
         public static void PlaySFX(string sfx)
         {
-            _instance._PlaySFX(sfx);
+            if (isFocused)
+                _instance._PlaySFX(sfx);
         }
 
         public static void PlaySFX(string sfx, Vector3 position)
         {
-            _instance._PlaySFX(sfx, position);
+            if (isFocused)
+                _instance._PlaySFX(sfx, position);
         }
 
         public static void SetMasterVolume(float volume)
